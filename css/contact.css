@@ -1,0 +1,22 @@
+.contact-content{
+    height:600px;
+/* height: 80vh; */
+margin-top: 20px;
+position: relative;
+font-family: 'Roboto', sans-serif;
+/* background-color:blue; */
+}
+.contact-content::after{
+    content: "";
+    background-image: url('../img/new6.jpg');
+    position: absolute;
+    width: 100%;
+    top: 0;
+     height: inherit ; 
+    border-radius: 30px;
+    opacity: 0.15;
+    z-index: -1;
+}
+.contact-content h2{
+    padding: 18px;
+}

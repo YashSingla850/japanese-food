@@ -1,0 +1,50 @@
+@media  screen and (max-width:1200px) {
+    .navigation{
+        flex-direction: column;
+        /* margin-top: 5px; */
+        /* margin-bottom: 5px; */
+        /* width: 50%; */
+    }
+    .nav-left{
+    display: flex;
+    text-align: center;
+    margin: 0px 12px;
+
+    }
+    .nav-left ul li{
+        margin-right: 0;
+    }
+    /* .nav-left ul li img{
+        width: 38px;
+    } */
+    .btn{
+        margin-right: 3px;
+        font-size: 12px;
+    }
+    .form-input{
+        margin-right: 2px;
+    font-size: 12px;
+    }
+    .new{
+        opacity: 0;
+        /* display: none; */
+    }
+    .contentright{
+        display: none;
+    }
+    .home-article{
+        flex-direction: column;
+        height: 100vw;
+    }
+    .contentleft{
+        padding: 
+        10px;
+    }
+    .form-box input ,textarea{
+        font-size: 12px;
+ 
+    }
+    .form-box textarea{
+        font-size: 14px;
+    }
+}
